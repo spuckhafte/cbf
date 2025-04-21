@@ -2,7 +2,6 @@ import Block from "./block.js";
 import { getBlockValueFromParameter } from "./utils.js";
 import { BlockInterface, EditableBlockInterface, SearchableParameters } from "../../../types.js"
 import { fileManager } from "../helpers/constants.js";
-import { ipcMain } from "electron";
 
 export class Chain {
     private blocks: BlockInterface[] = [];
